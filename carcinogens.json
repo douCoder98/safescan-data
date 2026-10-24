@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": 2,
-  "updated": "2026-10-10",
+  "updated": "2026-10-24",
   "source": "Classifications du CIRC (Centre international de recherche sur le cancer / IARC)",
   "sourceUrl": "https://monographs.iarc.who.int/list-of-classifications/",
   "substances": [
@@ -12,7 +12,11 @@
       "appliesTo": ["food", "cosmetic"],
       "cas": "50-00-0",
       "aliases": ["formaldehyde", "formaldéhyde", "formalin", "formol", "methylene glycol", "methanal"],
-      "description": "Conservateur. Classé cancérogène avéré (cancers du nasopharynx et leucémies), surtout par inhalation."
+      "description": "Conservateur. Classé cancérogène avéré (cancers du nasopharynx et leucémies), surtout par inhalation.",
+      "exposure": {
+        "food": "Le risque établi concerne l'inhalation, surtout en milieu professionnel. Son ajout comme conservateur alimentaire n'est pas autorisé dans l'Union européenne ; on en trouve naturellement de petites quantités dans de nombreux aliments.",
+        "cosmetic": "Le risque établi concerne l'inhalation (cancers du nasopharynx, leucémies). Méfiez-vous surtout des soins de lissage capillaire qui en dégagent à la chaleur du fer ou du sèche-cheveux. C'est aussi un allergène cutané fréquent."
+      }
     },
     {
       "id": "formaldehyde-releasers",
@@ -32,7 +36,10 @@
         "formaldehyde releasers",
         "formaldehyde releaser"
       ],
-      "description": "Conservateurs qui libèrent progressivement du formaldéhyde (groupe 1) dans le produit. Ils ne sont pas classés eux-mêmes ; le classement est celui du formaldéhyde libéré."
+      "description": "Conservateurs qui libèrent progressivement du formaldéhyde (groupe 1) dans le produit. Ils ne sont pas classés eux-mêmes ; le classement est celui du formaldéhyde libéré.",
+      "exposure": {
+        "cosmetic": "Ces conservateurs libèrent de faibles quantités de formaldéhyde, inhalé ou absorbé par la peau. Ce sont aussi des allergènes de contact fréquents. L'exposition est plus faible dans un produit rincé (shampooing, gel douche) que dans un soin laissé sur la peau."
+      }
     },
     {
       "id": "coal-tar",
@@ -41,7 +48,10 @@
       "appliesTo": ["cosmetic"],
       "cas": "8007-45-2",
       "aliases": ["coal tar", "goudron de houille", "coal tar solution"],
-      "description": "Utilisé dans certains shampooings antipelliculaires et traitements du psoriasis."
+      "description": "Utilisé dans certains shampooings antipelliculaires et traitements du psoriasis.",
+      "exposure": {
+        "cosmetic": "Le classement repose sur des expositions professionnelles importantes (inhalation, contact prolongé). Le goudron de houille est interdit dans les cosmétiques de l'Union européenne ; dans un traitement du psoriasis ou des pellicules, il s'utilise sur avis médical, pour une durée limitée."
+      }
     },
     {
       "id": "talc",
@@ -50,7 +60,11 @@
       "appliesTo": ["food", "cosmetic"],
       "cas": "14807-96-6",
       "aliases": ["talc", "talcum", "e553b", "ci 77718"],
-      "description": "Reclassé probablement cancérogène par le CIRC en 2024 (cancer de l'ovaire notamment lié à l'usage périnéal de poudres)."
+      "description": "Reclassé probablement cancérogène par le CIRC en 2024 (cancer de l'ovaire notamment lié à l'usage périnéal de poudres).",
+      "exposure": {
+        "food": "Le classement concerne l'application de poudre de talc sur la zone génitale et l'inhalation de poudre, pas l'ingestion. Comme additif (E553b, antiagglomérant), il est utilisé en petites quantités.",
+        "cosmetic": "Le risque porte sur l'application de poudre sur la zone génitale (cancer de l'ovaire) et sur l'inhalation de poudre. Évitez les poudres libres (talc pour bébé, poudres pour le corps) sur ces zones et près du visage des enfants. Dans un fard compact ou un rouge à lèvres, l'exposition est bien moindre."
+      }
     },
     {
       "id": "nitrites-nitrates",
@@ -62,7 +76,10 @@
         "potassium nitrite", "sodium nitrite", "sodium nitrate", "potassium nitrate",
         "nitrite de potassium", "nitrite de sodium", "nitrate de sodium", "nitrate de potassium"
       ],
-      "description": "Conservateurs des charcuteries. Ingérés, ils peuvent former des composés N-nitrosés cancérogènes dans l'organisme (cancer colorectal)."
+      "description": "Conservateurs des charcuteries. Ingérés, ils peuvent former des composés N-nitrosés cancérogènes dans l'organisme (cancer colorectal).",
+      "exposure": {
+        "food": "C'est la consommation régulière de charcuteries et de viandes transformées qui est liée au cancer colorectal. En France, le Programme national nutrition santé recommande de ne pas dépasser 150 g de charcuterie par semaine. Des charcuteries « sans nitrite ajouté » existent."
+      }
     },
     {
       "id": "inorganic-lead",
@@ -70,7 +87,10 @@
       "group": "2A",
       "appliesTo": ["cosmetic"],
       "aliases": ["lead acetate", "acétate de plomb", "acetate de plomb"],
-      "description": "Anciennement utilisé dans des teintures progressives pour cheveux ; interdit dans l'Union européenne."
+      "description": "Anciennement utilisé dans des teintures progressives pour cheveux ; interdit dans l'Union européenne.",
+      "exposure": {
+        "cosmetic": "Le plomb s'accumule dans l'organisme, en passant par la peau et surtout par la bouche, via les mains. Il est interdit dans les cosmétiques de l'Union européenne : méfiez-vous des produits vendus hors des circuits contrôlés, comme certains khôls traditionnels, à ne pas utiliser chez l'enfant."
+      }
     },
     {
       "id": "titanium-dioxide",
@@ -79,7 +99,11 @@
       "appliesTo": ["food", "cosmetic"],
       "cas": "13463-67-7",
       "aliases": ["titanium dioxide", "dioxyde de titane", "e171", "ci 77891"],
-      "description": "Peut-être cancérogène par inhalation (poudres, sprays). Interdit comme additif alimentaire (E171) dans l'Union européenne depuis 2022."
+      "description": "Peut-être cancérogène par inhalation (poudres, sprays). Interdit comme additif alimentaire (E171) dans l'Union européenne depuis 2022.",
+      "exposure": {
+        "food": "Le classement repose sur l'inhalation de poussières en milieu professionnel. Pour l'ingestion, l'Autorité européenne de sécurité des aliments n'a pas pu exclure un effet sur l'ADN, d'où l'interdiction de l'E171 dans l'Union européenne en 2022. Il reste autorisé dans d'autres pays.",
+        "cosmetic": "Le risque concerne l'inhalation : préférez les crèmes et les poudres compactes aux sprays et aux poudres libres. Appliqué sur une peau saine (crème solaire, maquillage), il ne pénètre pas de façon notable."
+      }
     },
     {
       "id": "carbon-black",
@@ -88,7 +112,10 @@
       "appliesTo": ["cosmetic"],
       "cas": "1333-86-4",
       "aliases": ["carbon black", "noir de carbone", "ci 77266"],
-      "description": "Pigment noir (mascaras, eye-liners). Peut-être cancérogène par inhalation."
+      "description": "Pigment noir (mascaras, eye-liners). Peut-être cancérogène par inhalation.",
+      "exposure": {
+        "cosmetic": "Le classement concerne l'inhalation de poussières en milieu industriel. Dans un mascara ou un eye-liner, le pigment est pris dans le produit et l'exposition est très faible ; évitez seulement les poudres libres qui contiennent ce pigment."
+      }
     },
     {
       "id": "aspartame",
@@ -97,7 +124,11 @@
       "appliesTo": ["food", "cosmetic"],
       "cas": "22839-47-0",
       "aliases": ["aspartame", "e951"],
-      "description": "Édulcorant. Classé peut-être cancérogène par le CIRC en 2023 ; la dose journalière admissible (40 mg/kg) a été maintenue par le JECFA."
+      "description": "Édulcorant. Classé peut-être cancérogène par le CIRC en 2023 ; la dose journalière admissible (40 mg/kg) a été maintenue par le JECFA.",
+      "exposure": {
+        "food": "Le CIRC a jugé les preuves limitées (cancer du foie). Le comité d'experts de l'OMS et de la FAO (JECFA) maintient une dose sans risque de 40 mg par kg de poids corporel et par jour : un adulte de 70 kg devrait boire plus de 9 à 14 canettes de soda light par jour pour la dépasser.",
+        "cosmetic": "Utilisé comme arôme sucrant dans des dentifrices ou des baumes à lèvres, en quantités infimes : l'exposition est négligeable par rapport à celle des boissons et aliments édulcorés."
+      }
     },
     {
       "id": "bha",
@@ -106,7 +137,11 @@
       "appliesTo": ["food", "cosmetic"],
       "cas": "25013-16-5",
       "aliases": ["butylated hydroxyanisole", "butylhydroxyanisole", "bha", "e320"],
-      "description": "Antioxydant de synthèse. Peut-être cancérogène."
+      "description": "Antioxydant de synthèse. Peut-être cancérogène.",
+      "exposure": {
+        "food": "Le classement repose sur des études chez l'animal, à fortes doses (tumeurs de l'estomac chez le rongeur). Il est autorisé comme antioxydant (E320) en petites quantités, notamment dans les matières grasses et certains produits apéritifs.",
+        "cosmetic": "Antioxydant utilisé en faible concentration (rouges à lèvres, crèmes). Le classement repose sur des études chez l'animal par voie orale ; l'exposition par la peau est faible."
+      }
     },
     {
       "id": "potassium-bromate",
@@ -115,7 +150,10 @@
       "appliesTo": ["food"],
       "cas": "7758-01-2",
       "aliases": ["potassium bromate", "bromate de potassium", "e924"],
-      "description": "Agent de traitement des farines, interdit dans l'Union européenne mais encore autorisé dans certains pays."
+      "description": "Agent de traitement des farines, interdit dans l'Union européenne mais encore autorisé dans certains pays.",
+      "exposure": {
+        "food": "Le classement repose sur des études chez l'animal (tumeurs du rein et de la thyroïde). Il est interdit dans l'Union européenne, mais reste utilisé dans certains pays pour améliorer les farines et le pain : vérifiez la composition des pains et farines importés."
+      }
     },
     {
       "id": "4-mei-caramels",
@@ -129,7 +167,10 @@
         "caramel ammoniacal", "caramel au sulfite d'ammonium",
         "caramel au sulfite ammoniacal"
       ],
-      "description": "Colorants caramel pouvant contenir du 4-méthylimidazole (4-MEI), classé peut-être cancérogène. La teneur dépend du procédé de fabrication."
+      "description": "Colorants caramel pouvant contenir du 4-méthylimidazole (4-MEI), classé peut-être cancérogène. La teneur dépend du procédé de fabrication.",
+      "exposure": {
+        "food": "Le 4-MEI est classé à partir d'études chez l'animal, à fortes doses. Sa teneur dans ces colorants est limitée en Europe. L'exposition vient surtout des boissons colorées au caramel (colas, bières brunes) consommées en grande quantité."
+      }
     },
     {
       "id": "diethanolamine",
@@ -137,7 +178,10 @@
       "group": "2B",
       "appliesTo": ["cosmetic"],
       "aliases": ["diethanolamine", "dea", "cocamide dea", "coconut oil diethanolamine condensate"],
-      "description": "Agents moussants et émulsifiants (shampooings, gels douche). Peut-être cancérogènes."
+      "description": "Agents moussants et émulsifiants (shampooings, gels douche). Peut-être cancérogènes.",
+      "exposure": {
+        "cosmetic": "Le classement repose sur des études chez l'animal par application sur la peau. La DEA et ses dérivés peuvent aussi former des nitrosamines, d'autres substances cancérigènes. La DEA est interdite dans les cosmétiques de l'Union européenne et ses dérivés y sont encadrés. Dans un produit rincé, le temps de contact est court."
+      }
     },
     {
       "id": "methyleugenol",
@@ -146,7 +190,11 @@
       "appliesTo": ["food", "cosmetic"],
       "cas": "93-15-2",
       "aliases": ["methyleugenol", "methyl eugenol", "méthyleugénol"],
-      "description": "Composant de parfums et d'arômes naturels (basilic, laurier…)."
+      "description": "Composant de parfums et d'arômes naturels (basilic, laurier…).",
+      "exposure": {
+        "food": "Classé à partir d'études chez l'animal, à fortes doses. Il est présent naturellement dans des herbes et épices (basilic, laurier, muscade) : une alimentation variée n'expose qu'à de faibles quantités.",
+        "cosmetic": "Composant de parfums et d'huiles essentielles, dont la teneur est limitée dans les cosmétiques de l'Union européenne. Évitez d'appliquer des huiles essentielles pures sur la peau."
+      }
     },
     {
       "id": "safrole",
@@ -155,7 +203,11 @@
       "appliesTo": ["food", "cosmetic"],
       "cas": "94-59-7",
       "aliases": ["safrole"],
-      "description": "Composant d'huiles essentielles (sassafras). Interdit comme additif dans l'Union européenne."
+      "description": "Composant d'huiles essentielles (sassafras). Interdit comme additif dans l'Union européenne.",
+      "exposure": {
+        "food": "Classé à partir d'études chez l'animal (tumeurs du foie). Il est présent naturellement dans le sassafras et à l'état de traces dans certaines épices ; son ajout aux aliments est interdit dans l'Union européenne.",
+        "cosmetic": "Interdit dans les cosmétiques de l'Union européenne, en dehors de traces naturelles dans les huiles essentielles, dont la teneur est limitée. Évitez l'huile essentielle de sassafras."
+      }
     },
     {
       "id": "pulegone",
@@ -164,7 +216,11 @@
       "appliesTo": ["food", "cosmetic"],
       "cas": "89-82-7",
       "aliases": ["pulegone", "pulégone"],
-      "description": "Composant d'huiles essentielles de menthe (menthe pouliot)."
+      "description": "Composant d'huiles essentielles de menthe (menthe pouliot).",
+      "exposure": {
+        "food": "Classé à partir d'études chez l'animal. On en trouve surtout dans la menthe pouliot, à éviter en tisane concentrée ou en huile essentielle, en particulier pendant la grossesse. Les autres menthes en contiennent peu.",
+        "cosmetic": "Présent surtout dans l'huile essentielle de menthe pouliot, toxique à forte dose et à éviter pendant la grossesse. Les autres menthes en contiennent peu."
+      }
     },
     {
       "id": "beta-myrcene",
@@ -173,7 +229,11 @@
       "appliesTo": ["food", "cosmetic"],
       "cas": "123-35-3",
       "aliases": ["myrcene", "beta myrcene", "β myrcene", "myrcène"],
-      "description": "Composant de parfums et d'huiles essentielles (houblon, citronnelle)."
+      "description": "Composant de parfums et d'huiles essentielles (houblon, citronnelle).",
+      "exposure": {
+        "food": "Classé à partir d'études chez l'animal, à fortes doses. Il est présent naturellement dans de nombreuses plantes (houblon, citronnelle, mangue) ; l'alimentation courante n'en apporte que de faibles quantités.",
+        "cosmetic": "Composant de parfums et d'huiles essentielles, utilisé en faible concentration. Évitez d'appliquer des huiles essentielles pures sur la peau."
+      }
     },
     {
       "id": "benzophenone",
@@ -182,7 +242,10 @@
       "appliesTo": ["cosmetic"],
       "cas": "119-61-9",
       "aliases": ["benzophenone", "benzophénone"],
-      "description": "Photo-initiateur et fixateur de parfum. Ne pas confondre avec les filtres UV « benzophenone-3 » ou « benzophenone-4 », qui ne sont pas classés."
+      "description": "Photo-initiateur et fixateur de parfum. Ne pas confondre avec les filtres UV « benzophenone-3 » ou « benzophenone-4 », qui ne sont pas classés.",
+      "exposure": {
+        "cosmetic": "Classé à partir d'études chez l'animal par voie orale ; il passe peu la peau. Il peut aussi se former dans les crèmes solaires contenant de l'octocrylène en vieillissant : ne gardez pas une crème solaire entamée d'une année sur l'autre."
+      }
     }
   ]
 }
